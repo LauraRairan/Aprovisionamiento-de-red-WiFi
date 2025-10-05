@@ -38,8 +38,8 @@ Solución IoT basada en el microcontrolador ESP32 que permite la configuración 
 ## Documentación
 - **Endpoints**: Detallados en [`/endpoints.md`](./endpoints.md).
 - **Colección Postman**: Disponible en [`/postman_collection.json`](./postman_collection.json).
-- **Conversaciones con IA**: Registradas en [`/docs/conversaciones_IA.md`](./docs/conversaciones_IA.md).
-- **Diagramas**: Incluyen UML de secuencia y esquemático en [`/docs/diagrams`](./docs/diagrams).
+- **Conversaciones con IA**: Registradas en [`/docs/conversaciones_IA.md`](./conversaciones_IA.md).
+- **Diagramas**: Incluyen UML de secuencia y esquemático en [`/docs/diagrams`](./diagrams).
 
 ## Requisitos Cumplidos
 - Inicia en modo AP si no hay credenciales.
