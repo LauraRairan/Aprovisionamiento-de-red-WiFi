@@ -36,7 +36,7 @@ Solución IoT basada en el microcontrolador ESP32 que permite la configuración 
    - Presiona el botón en GPIO 0 o visita `http://192.168.4.1/reset` desde la red "ESP32-Config" para borrar las credenciales.
 
 ## Documentación
-- **Endpoints**: Detallados en [`/docs/endpoints.md`](./docs/endpoints.md).
+- **Endpoints**: Detallados en [`/endpoints.md`](./endpoints.md).
 - **Colección Postman**: Disponible en [`/postman_collection.json`](./postman_collection.json).
 - **Conversaciones con IA**: Registradas en [`/docs/conversaciones_IA.md`](./docs/conversaciones_IA.md).
 - **Diagramas**: Incluyen UML de secuencia y esquemático en [`/docs/diagrams`](./docs/diagrams).
