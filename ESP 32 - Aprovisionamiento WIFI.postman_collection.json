@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "a9d34cac-3847-4619-bde5-f858e786469d",
+		"name": "ESP 32 - Aprovisionamiento WIFI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43479019",
+		"_collection_link": "https://laura-8411028.postman.co/workspace/Laura's-Workspace~ad365e1b-15b9-420f-82a5-dde16b54a9c5/collection/43479019-a9d34cac-3847-4619-bde5-f858e786469d?action=share&source=collection_link&creator=43479019"
+	},
+	"item": [
+		{
+			"name": "Get Form",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.4.1/",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"4",
+						"1"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Config",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "ssid",
+							"value": "motoedge50fusion_5477",
+							"description": "SSID de mi red",
+							"type": "text"
+						},
+						{
+							"key": "pass",
+							"value": "Laura123",
+							"description": "PASSWORD de mi red",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.4.1/config",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"4",
+						"1"
+					],
+					"path": [
+						"config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Reset",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.4.1/reset",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"4",
+						"1"
+					],
+					"path": [
+						"reset"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
