@@ -53,9 +53,9 @@ Solución IoT basada en el microcontrolador ESP32 que permite la configuración 
 
 ## Colaboradores
 - Profesor: [@fabianpaeri](https://github.com/fabianpaeri) (Docente).
-- Colaborador 1: [@maferodriguezch06](https://github.com/maferodriguezch06) (Estudiante)
-- Colaborador 2: [@eduardmesa09](https://github.com/eduardmesa09) (Estudiante)
-- Colaborador 3: [@LauraRairan](https://github.com/LauraRairan) (Estudiante)
+- Colaborador 1: Maria Fernanda Rodriguez Chaparrro [@maferodriguezch06](https://github.com/maferodriguezch06) (Estudiante)
+- Colaborador 2: Eduard Meza Salazar [@eduardmesa09](https://github.com/eduardmesa09) (Estudiante)
+- Colaborador 3: Laura Valentina Rairan Gavilan [@LauraRairan](https://github.com/LauraRairan) (Estudiante)
 
 ## Capturas
 - - **Imagenes**: Detalladas en [`/img`](./img).
