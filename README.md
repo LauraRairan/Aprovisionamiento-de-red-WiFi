@@ -37,7 +37,7 @@ Solución IoT basada en el microcontrolador ESP32 que permite la configuración 
 
 ## Documentación
 - **Endpoints**: Detallados en [`/docs/endpoints.md`](./docs/endpoints.md).
-- **Codigo Arduino**: Detallados en [`/docs/code_arduino_aprovisionamiento.ino`](./docs/code_arduino_aprovisionamiento.ino).
+- **Codigo Arduino**: Detallado en [`/docs/code_arduino_aprovisionamiento.ino`](./docs/code_arduino_aprovisionamiento.ino).
 - **Colección Postman**: Disponible en [`/docs/postman_collection.json`](./docs/postman_collection.json).
 - **Conversaciones con IA**: Registradas en [`/docs/conversaciones_IA.md`](./docs/conversaciones_IA.md).
 - **Diagramas**: Incluyen UML de secuencia y esquemático en [`/diagrams`](./diagrams).
@@ -52,10 +52,10 @@ Solución IoT basada en el microcontrolador ESP32 que permite la configuración 
 - Repositorio en GitHub con Wiki/README.
 
 ## Colaboradores
-- Profesor: [@fabianpaeri](https://github.com/fabianpaeri) (agregado como colaborador).
-
-## Licencia
-[Agregar licencia si aplica, por ejemplo, MIT o GPL.]
+- Profesor: [@fabianpaeri](https://github.com/fabianpaeri) (Docente).
+- Colaborador 1: [@maferodriguezch06](https://github.com/maferodriguezch06) (Estudiante)
+- Colaborador 2: [@eduardmesa09](https://github.com/eduardmesa09) (Estudiante)
+- Colaborador 3: [@LauraRairan](https://github.com/LauraRairan) (Estudiante)
 
 ## Capturas
-- Monitor Serial con conexión exitosa:
+- - **Imagenes**: Detalladas en [`/img`](./img).
