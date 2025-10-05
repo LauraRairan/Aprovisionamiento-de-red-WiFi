@@ -14,7 +14,7 @@ Solución IoT basada en el microcontrolador ESP32 que permite la configuración 
 - **Estado**: Proyecto funcional y documentado.
 
 ## Requisitos
-- Hardware: ESP32 (compatible con Arduino), botón con resistencia pull-up (opcional para GPIO 0).
+- Hardware: ESP32 (compatible con Arduino).
 - Software: Arduino IDE, Git, GitHub, Postman (para probar endpoints).
 
 ## Instrucciones de Uso
