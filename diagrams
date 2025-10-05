@@ -1,0 +1,18 @@
+@startuml
+actor Usuario
+participant "ESP32 (AP)" as ESP32AP
+participant "ESP32 (STA)" as ESP32STA
+participant "Router WiFi" as Router
+
+Usuario -> ESP32AP: Conectar a "ESP32-Config" (WiFi)
+Usuario -> ESP32AP: GET http://192.168.4.1/
+ESP32AP -> Usuario: Mostrar formulario HTML
+Usuario -> ESP32AP: POST http://192.168.4.1/config (SSID, Pass)
+ESP32AP -> ESP32AP: Guardar credenciales en Preferences
+ESP32AP -> ESP32AP: Reiniciar
+ESP32AP -> ESP32STA: Iniciar modo STA
+ESP32STA -> Router: Intentar conexión WiFi
+Router -> ESP32STA: Conexión exitosa
+ESP32STA -> ESP32STA: Mostrar "Conectado! IP: ..." en Serial
+ESP32STA -> Usuario: LED encendido fijo
+@enduml
